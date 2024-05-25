@@ -14,13 +14,17 @@ from datetime import datetime
 # API_KEY = os.getenv("API_KEY")
 #
 
+#app password can be generated from your google account -> security -> 2FA verification on -> 
+#go through this link https://support.google.com/accounts/answer/185833?hl=en
+
+
 MY_EMAIL = "akinduscience@gmail.com"
-MY_PWD = "yqma fvmg kpcp dr"
+MY_PWD = "Your app password here"
 today = datetime.today()
 
 MY_API = "https://api.openweathermap.org/data/2.5/forecast"
 MY_CITY = "Colombo"
-API_KEY= "d176a14e7940922b7e4645c0759a150b"
+API_KEY= " #your API key here"
 
 MY_POS = {
     "lat": 6.9763072,
